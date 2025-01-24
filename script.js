@@ -21,13 +21,13 @@ function afficherEtoiles(n) {
 
 function afficherRectangle(hauteur, largeur) {
     largeur = afficherEtoiles(largeur)
-    resultLargeur = ""
+    let resultLargeur = ""
     resultHauteur = ""
 
-    for(let i = 0; i < largeur.length; i++) {
+    for(let i = 0; i < hauteur -1; i++) {
         resultLargeur += afficherEtoiles(hauteur)
     }
-    console.log(resultLargeur)
+    // console.log(resultLargeur)
     return resultLargeur
     // pour chaque "étage" de la hauteur
     //    appeler printEtoile
