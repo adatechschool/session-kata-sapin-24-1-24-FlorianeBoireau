@@ -22,8 +22,7 @@ function afficherEtoiles(n) {
 function afficherRectangle(hauteur, largeur) {
     largeur = afficherEtoiles(largeur)
     let resultLargeur = ""
-    resultHauteur = ""
-
+    
     for(let i = 0; i < hauteur -1; i++) {
         resultLargeur += afficherEtoiles(hauteur)
     }
